@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://chxhxs5766rx8"]
 
 [node name="Node2D" type="Node2D"]
+<<<<<<< HEAD
+=======
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+zoom = Vector2(0.5, 0.5)
+>>>>>>> f9115f2c1ce4995024bebcfcb5b2c1a729e50469
