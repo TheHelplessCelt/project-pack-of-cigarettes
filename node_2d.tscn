@@ -1,3 +1,64 @@
-[gd_scene format=3 uid="uid://chxhxs5766rx8"]
+[gd_scene load_steps=4 format=4 uid="uid://chxhxs5766rx8"]
+
+[ext_resource type="Texture2D" uid="uid://crvu54ssyh1wt" path="res://garages tilemap/Tileset_garage.png" id="1_hdm02"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i3ktr"]
+resource_name = "Garages"
+texture = ExtResource("1_hdm02")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+6:1/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+22:5/0 = 0
+23:5/0 = 0
+20:6/0 = 0
+21:6/0 = 0
+22:6/0 = 0
+23:6/0 = 0
+20:7/0 = 0
+21:7/0 = 0
+22:7/0 = 0
+23:7/0 = 0
+20:8/0 = 0
+21:8/0 = 0
+22:8/0 = 0
+23:8/0 = 0
+20:9/0 = 0
+21:9/0 = 0
+22:9/0 = 0
+23:9/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+4:0/0 = 0
+4:1/size_in_atlas = Vector2i(2, 1)
+4:1/0 = 0
+0:2/size_in_atlas = Vector2i(3, 3)
+0:2/0 = 0
+3:2/size_in_atlas = Vector2i(3, 3)
+3:2/0 = 0
+6:2/size_in_atlas = Vector2i(3, 3)
+6:2/0 = 0
+9:2/size_in_atlas = Vector2i(3, 3)
+9:2/0 = 0
+0:5/size_in_atlas = Vector2i(3, 3)
+0:5/0 = 0
+3:5/size_in_atlas = Vector2i(3, 3)
+3:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2pmhd"]
+sources/0 = SubResource("TileSetAtlasSource_i3ktr")
 
 [node name="Node2D" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAABAP7/AAAAAAAAAAABAPz/AAAAAAAAAAABAPr/AAABAAEAAAADAPr/AAABAAAAAAAHAPr/AAABAAAAAAAJAP7/AAAAAAEAAAAJAPr/AAABAAEAAAAFAPr/AAAAAAAAAAAJAPz/AAAAAAAAAAAFAPz/AAAAAAIAAAALAPr/AAABAAAAAAANAPr/AAABAAAAAAAPAPr/AAAAAAAAAAARAPr/AAAAAAEAAAANAPz/AAADAAIAAAARAPz/AAABAAAAAAARAP7/AAAAAAAAAAATAPr/AAABAAAAAAAVAPr/AAABAAAAAAAXAPr/AAAAAAAAAAAVAPz/AAAGAAIAAAAZAPz/AAAAAAAAAAAZAP7/AAAAAAAAAAAZAPr/AAABAAEAAAAbAPr/AAABAAAAAAAfAPr/AAABAAAAAAAhAP7/AAAAAAEAAAAhAPr/AAABAAEAAAAdAPr/AAAAAAAAAAAhAPz/AAAAAAAAAAAdAPz/AAAJAAIAAAA=")
+tile_set = SubResource("TileSet_2pmhd")
